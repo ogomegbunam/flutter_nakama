@@ -77,6 +77,7 @@ abstract class NakamaBaseClient {
   });
 
   Future<Account> getAccount(model.Session session);
+  Future<Account> createWallet(model.Session session);
 
   Future<Users> getUsers({
     required model.Session session,
